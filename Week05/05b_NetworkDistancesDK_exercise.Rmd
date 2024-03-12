@@ -549,8 +549,7 @@ driving_isos <- readRDS("../data/driving_isos.rds")
 mapbox_map %>%
   addPolygons(data = walking_isos) %>% 
   addPolygons(data = cycling_isos) %>% 
-  addPolygons(data = driving_isos) 
-  ___________
+  addPolygons(data = driving_isos)
 
 ```
 
